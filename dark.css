@@ -6,8 +6,8 @@
 
 body{
     font-family: 'Poppins', sans-serif;
-    background-color: #eee; 
-    
+    background-color: rgb(26, 25, 25);
+    color: white;
 }
 
 
@@ -29,18 +29,14 @@ nav{
 }
 .nav-bar{
     padding: 10px;
-    background: tomato;
+    background-color: rgb(26, 25, 25);
     width: auto;
     height: 50px;
-    
-    
 }
 
 ul li a:hover{
     color: cyan;
 }
-
-
 
 
 
@@ -134,7 +130,7 @@ h2{
     margin-left: 10%;
     margin-right: 10%;
     padding: 40px;
-    box-shadow: 10px 10px 30px grey;
+    box-shadow: 10px 10px 20px rgb(44, 44, 44);
     border-radius: 10px;
     border-left: 10px solid;
 }
@@ -147,7 +143,6 @@ h2{
 }
 
 #card1{
-    /* background: rgb(47, 47, 48); */
     border-left: 7px solid;
     border-image: linear-gradient(rgb(248, 95, 78),rgb(248, 156, 69));
     border-image-slice: 1;
@@ -172,12 +167,3 @@ footer{
 footer:hover{
     color: red;
 }
-
-
-
-
-
-
-
-
-
