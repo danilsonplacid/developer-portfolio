@@ -6,6 +6,8 @@
 
 body{
     font-family: 'Poppins', sans-serif;
+    background-color: rgb(26, 25, 25);
+    color: white;
 }
 
 h1{
@@ -51,7 +53,7 @@ h2{
 }
 
 .top-banner{
-    background-image: url(image/top-banner.png);
+    background-image: url(image/banner2.png);
     background-repeat: no-repeat;
 }
 
@@ -74,4 +76,12 @@ h2{
     margin-right: 10%;
     padding: 40px;
     box-shadow: 10px 10px 30px grey;
+    border-radius: 10px;
+}
+
+.exp-area{
+    background-image: url(image/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+
 }
