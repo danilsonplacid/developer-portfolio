@@ -12,11 +12,15 @@ h1{
     font-size: 50px;
 }
 
+h2{
+    font-size: 40px;
+}
+
 .color{
     color: orange;
 }
 
-section{
+.flexible-container{
     display: flex; 
     margin-bottom: 150px;
 }
@@ -59,4 +63,15 @@ section{
     background-image: url(image/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+}
+#exp-header{
+    margin-left: 10%;
+}
+
+.exp-item{
+    width: 40%;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding: 40px;
+    box-shadow: 10px 10px 30px grey;
 }
